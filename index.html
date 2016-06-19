@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <link rel = "stylesheet" href = "style.css"/>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+  <script type = "text/javascript" 
+          src = "http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+ </head>
+ 
+ <body id="body">
+  <div class="container-fluid">
+   <div class="row text-center">
+    <h1 id="header">Wikipedia Viewer</h1>
+	<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><p id="randomArticle">Click here for a random article</p></a>
+	
+	<div id="searchDiv" class="btn-group">
+	 <input id="searchInput" type="search" class="rounded form-control" placeholder="Search..">
+     <span id="searchClear" class="glyphicon glyphicon-remove-circle"></span>
+	</div>	
+	
+    <div id="resultDiv" class="col-xs-10 col-xs-offset-1 text-left">
+	</div>
+   </div>
+  </div>
+  
+  <script src="script.js"></script>
+ </body>
+</html>
